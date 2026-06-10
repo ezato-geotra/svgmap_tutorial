@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,soc" viewBox="14625.0 -3375.0 1125.0 1125.0" go:dataArea="14625.0 -3375.0 1125.0 1125.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M15398.5501,-2428.0879L15398.2468,-2428.1031L15397.7185,-2428.3145L15397.056,-2428.4744L15397.4216,-2428.817L15397.8042,-2429.0883L15398.1486,-2429.4748L15398.2497,-2429.6423L15398.4097,-2429.7678L15398.5181,-2429.7223L15398.4867,-2429.4567L15398.5267,-2429.0084L15398.6866,-2428.2316L15398.5501,-2428.0879"/>
+</g>
+</svg>

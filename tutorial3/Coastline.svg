@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="12078.24557, -4750.342539, 2637.1512, 2526.396468" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile"  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" property="id,type,latitude,longitude,title,address,spec" >
+ <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100,0,0,-100,0,0)" />
+
+ <animation xlink:href="0_0.svg" x="12078.24557" y="-4750.342539" width="659.2878" height="631.5991"/>
+ <animation xlink:href="0_1.svg" x="12078.24557" y="-4118.743422" width="659.2878" height="631.5991"/>
+ <animation xlink:href="0_2.svg" x="12078.24557" y="-3487.144305" width="659.2878" height="631.5991"/>
+ <animation xlink:href="0_3.svg" x="12078.24557" y="-2855.545188" width="659.2878" height="631.5991"/>
+
+ <animation xlink:href="1_0.svg" x="12737.53337" y="-4750.342539" width="659.2878" height="631.5991"/>
+ <animation xlink:href="1_1.svg" x="12737.53337" y="-4118.743422" width="659.2878" height="631.5991"/>
+ <animation xlink:href="1_2.svg" x="12737.53337" y="-3487.144305" width="659.2878" height="631.5991"/>
+ <animation xlink:href="1_3.svg" x="12737.53337" y="-2855.545188" width="659.2878" height="631.5991"/>
+
+ <animation xlink:href="2_0.svg" x="13396.82117" y="-4750.342539" width="659.2878" height="631.5991"/>
+ <animation xlink:href="2_1.svg" x="13396.82117" y="-4118.743422" width="659.2878" height="631.5991"/>
+ <animation xlink:href="2_2.svg" x="13396.82117" y="-3487.144305" width="659.2878" height="631.5991"/>
+ <animation xlink:href="2_3.svg" x="13396.82117" y="-2855.545188" width="659.2878" height="631.5991"/>
+
+ <animation xlink:href="3_0.svg" x="14056.10897" y="-4750.342539" width="659.2878" height="631.5991"/>
+ <animation xlink:href="3_1.svg" x="14056.10897" y="-4118.743422" width="659.2878" height="631.5991"/>
+ <animation xlink:href="3_2.svg" x="14056.10897" y="-3487.144305" width="659.2878" height="631.5991"/>
+ <animation xlink:href="3_3.svg" x="14056.10897" y="-2855.545188" width="659.2878" height="631.5991"/>
+
+</svg>

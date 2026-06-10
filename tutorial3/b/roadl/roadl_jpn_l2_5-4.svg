@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,rst,med,rtt,RSU,loc,soc" viewBox="14625.0 -4500.0 1125.0 1125.0" go:dataArea="14625.0 -4500.0 1125.0 1125.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#00ff00" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M14721.9812,-4474.231L14722.6786,-4473.959L14723.765,-4473.8499L14725.3946,-4473.8499L14726.5589,-4473.6866L14727.955,-4473.8499L14729.1178,-4474.0131L14730.0485,-4474.0677L14731.6004,-4473.7953L14733.3856,-4473.6866L14734.6262,-4473.632L14735.6348,-4473.7953L14736.9531,-4474.4488L14737.3392,-4475.1568L14737.7268,-4475.5379L14738.5797,-4475.8644L14739.8218,-4476.2459L14740.5191,-4476.7902L14741.2943,-4477.3891L14742.3014,-4477.8248L14743.078,-4478.0426L14743.5434,-4478.4237L14744.1629,-4478.9139L14744.5505,-4479.1862L14744.9381,-4479.1317L14746.1801,-4478.8593L14746.8775,-4479.0226L14747.7304,-4479.4041L14748.3515,-4479.5673L14748.8169,-4479.9484L14749.2807,-4480.7652L14749.6683,-4481.3641L14750.5991,-4481.8542L14751.9937,-4482.5073L14753.3899,-4482.7797L14754.4763,-4482.943L14755.6391,-4483.4877L14757.1131,-4484.2499L14758.2758,-4485.4481L14759.6704,-4487.0815L14760.5997,-4488.4426L14761.2192,-4489.695L14762.7695,-4491.383L14763.6988,-4492.3084L14763.6209,-4492.5808L14763.1937,-4492.889L14762.2232,-4493.2888L14761.6037,-4493.5066L14761.2924,-4493.7786L14760.6546,-4494.6522L14762.2202,-4496.9913L14762.8397,-4497.9713L14764.0024,-4499.3328L14764.953,-4500"/>
+</g>
+</svg>

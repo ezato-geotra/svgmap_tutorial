@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,soc" viewBox="12937.5 -2812.5 562.5 562.5" go:dataArea="12937.5 -2812.5 562.5 562.5" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13118.6877,-2446.1686L13118.4685,-2446.3432L13118.3546,-2446.611L13118.1987,-2446.8828L13118.0682,-2447.2085L13118.3926,-2447.2007L13118.7503,-2447.1207L13119.2081,-2447.1047L13119.4476,-2447.0153L13119.498,-2446.942L13119.4339,-2446.669L13119.2172,-2446.322L13118.9562,-2446.1513L13118.6877,-2446.1686"/>
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13123.0596,-2581.2812L13121.4498,-2582.2078L13121.819,-2583.4346L13121.7092,-2584.3211L13122.0494,-2585.6613L13121.9991,-2586.4211L13122.3287,-2586.8945L13123.5296,-2587.2346L13125.3087,-2587.2079L13126.2792,-2586.8812L13127.3092,-2585.5213L13126.6896,-2583.4346L13126.74,-2583.3011L13126.389,-2582.4079L13125.3087,-2581.5746L13124.4497,-2581.3279L13123.0596,-2581.2812"/>
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13130.576,-2592.8331L13130.4859,-2592.8398L13129.3964,-2593.4198L13128.5572,-2594.8066L13128.5465,-2596.0464L13130.6065,-2595.5465L13132.0072,-2595.6064L13133.2264,-2595.1933L13132.3872,-2593.2798L13131.937,-2592.8798L13130.576,-2592.8331"/>
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M12937.5612,-2812.5L12937.6999,-2812.3934L12937.7197,-2811.7134L12937.8006,-2811.1L12937.6602,-2810.94L12937.5,-2811.0378"/>
+</g>
+</svg>

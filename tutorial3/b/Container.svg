@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="122.9800817, -45.398095, 21.97626, 21.0533039" >
+    <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(1,0,0,-1,0,0)" />
+
+    <!-- 背景地図 OpenStreetMap (非表示状態)-->
+    <animation xlink:href="../../tutorial2/c/dynamicOSM_r11.svg" x="-3000" y="-3000" width="6000" height="6000" title="OpenStreetMap" class="basemap switch" visibility="visible"/>
+
+    <!-- 地球地図日本 海岸線-->
+    <animation xlink:href="coastl/coastl_jpn.svg" x="-3000" y="-3000" width="6000" height="6000" title="海岸線" class="地球地図日本 clickable" visibility="visible"/>
+
+    <!-- 地球地図日本 道路線-->
+    <animation xlink:href="roadl/roadl_jpn.svg" x="-3000" y="-3000" width="6000" height="6000" title="道路" class="地球地図日本 clickable" visibility="visible"/>
+
+    <!-- 地球地図日本 市街地(面)-->
+    <animation xlink:href="builtup/builtupa_jpn.svg" x="-3000" y="-3000" width="6000" height="6000" title="市街地(面)" class="地球地図日本 clickable" visibility="visible"/>
+
+    <!-- 地球地図日本 空港-->
+    <animation xlink:href="airp/airp_jpn.svg" x="-3000" y="-3000" width="6000" height="6000" title="空港" class="地球地図日本 clickable" visibility="visible"/>
+</svg>

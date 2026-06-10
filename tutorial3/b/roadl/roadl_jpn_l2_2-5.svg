@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,rst,med,rtt,RSU,loc,soc" viewBox="11250.0 -3375.0 1125.0 1125.0" go:dataArea="11250.0 -3375.0 1125.0 1125.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#00ff00" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M12298.7099,-2446.3449L12300.0165,-2446.3014"/>
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M12300.0165,-2446.3014L12300.1129,-2446.2914L12301.4397,-2446.146L12301.918,-2445.9576L12302.0554,-2445.4803L12301.7776,-2445.0756L12301.3275,-2445.2261L12300.7439,-2445.5248L12300.5043,-2445.9278L12300.0165,-2446.3014"/>
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M12298.7099,-2446.3449L12298.5924,-2445.9187L12298.1926,-2445.2723L12297.5586,-2444.5353L12297.3885,-2444.1641L12296.8414,-2444.3644L12296.0304,-2444.676L12295.5956,-2444.7252L12294.9181,-2444.7445L12294.5831,-2444.7237L12294.4031,-2445.0308L12294.339,-2445.3112L12295.3781,-2445.8925L12295.7954,-2445.9646L12298.7099,-2446.3449"/>
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M12375,-2437.9658L12374.8009,-2438.3034L12375,-2438.5455"/>
+</g>
+</svg>

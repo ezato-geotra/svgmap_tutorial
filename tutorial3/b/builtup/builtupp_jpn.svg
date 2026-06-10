@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" viewBox="9000.0 -9000.0 9000.0 9000.0" go:dataArea="9000.0 -9000.0 9000.0 9000.0" >
+<!--  参考データです -->
+<!-- Tramsform:[100.0,0.0,0.0,-100.0,0.0,0.0] -->
+<!-- 基準緯線:0.0 -->
+<!-- Bounds:ReferencedEnvelope[122.992851257324 : 148.82235717773398, 24.058103561401385 : 45.48048400878912] DefaultGeographicCRS[GCS_ITRF_1994] AXIS["Longitude", EAST] AXIS["Latitude", NORTH] -->
+<!-- TypeName:builtupp_jpn -->
+<!-- Count:6 -->
+<!-- NS:builtupp_jpn -->
+<!-- Geom:GeometryDescriptorImpl the_geom <Point:Point> nillable 0:1 -->
+<!-- attrNo:0 Name:the_geom type:Point -->
+<!-- attrNo:1 Name:f_code type:String -->
+<!-- attrNo:2 Name:pop type:Integer -->
+<!-- attrNo:3 Name:ypc type:Integer -->
+<!-- attrNo:4 Name:nam type:String -->
+<!-- attrNo:5 Name:soc type:String -->
+<!-- OriginalDatum:JGD2000 -->
+<!-- OriginalCrd:LatLon -->
+<!-- defMainColor:#ff0000 -->
+<!-- outlineColor: -->
+<!-- mainColorCol:-1 -->
+<!-- outLineColorCol:-1 -->
+<!-- POIsizeCol:-1 -->
+<!-- captionCol:-1 -->
+<!-- dupCheckCol:-1 -->
+<!-- linkCol:-1 -->
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<!-- Total:1640 records. -->
+<!-- LEVEL: 0 -->
+<animation xlink:href="builtupp_jpn_1-0.svg" x="13500" y="-9000" width="4500" height="4500" visibleMinZoom="8.88"/>
+<image xlink:href="builtupp_jpn/lvl3/tile1_0.png" preserveAspectRatio="none" x="13500" y="-9000" width="4500" height="4500" visibleMaxZoom="8.88"/>
+<animation xlink:href="builtupp_jpn_0-1.svg" x="9000" y="-4500" width="4500" height="4500" visibleMinZoom="8.88"/>
+<image xlink:href="builtupp_jpn/lvl3/tile0_1.png" preserveAspectRatio="none" x="9000" y="-4500" width="4500" height="4500" visibleMaxZoom="8.88"/>
+<animation xlink:href="builtupp_jpn_1-1.svg" x="13500" y="-4500" width="4500" height="4500" visibleMinZoom="8.88"/>
+<image xlink:href="builtupp_jpn/lvl3/tile1_1.png" preserveAspectRatio="none" x="13500" y="-4500" width="4500" height="4500" visibleMaxZoom="8.88"/>
+</svg>

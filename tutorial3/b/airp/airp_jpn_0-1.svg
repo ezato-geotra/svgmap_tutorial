@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,iko,ita,nam,use,zv3,soc" viewBox="9000.0 -4500.0 4500.0 4500.0" go:dataArea="9000.0 -4500.0 4500.0 4500.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="#0000ff" fill-rule="evenodd" >
+<use xlink:href="#p0" content="GB005,RJNO,OKI,OKI,4,92,JPN" xlink:title="GB005" transform="ref(svg,13332.3914,-3618.0782)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOR,TTJ,TOTTORI,4,15,JPN" xlink:title="GB005" transform="ref(svg,13417.0547,-3553.0132)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOH,YGJ,MIHO,22,4,JPN" xlink:title="GB005" transform="ref(svg,13323.7167,-3549.5468)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOC,IZO,IZUMO,4,2,JPN" xlink:title="GB005" transform="ref(svg,13288.5147,-3541.1156)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJDT,TSJ,TSUSHIMA,4,63,JPN" xlink:title="GB005" transform="ref(svg,12933.0505,-3428.4489)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJDB,IKI,IKI,4,12,JPN" xlink:title="GB005" transform="ref(svg,12978.4271,-3375.0549)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJDO,UNK,OJIKA,4,8,JPN" xlink:title="GB005" transform="ref(svg,12908.9218,-3319.1418)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJDK,UNK,KAMIGOTO,4,80,JPN" xlink:title="GB005" transform="ref(svg,12919.2947,-3301.302)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFU,NGA,NAGASAKI,4,2,JPN" xlink:title="GB005" transform="ref(svg,12991.5527,-3291.2579)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFE,FUJ,FUKUE,4,77,JPN" xlink:title="GB005" transform="ref(svg,12883.0109,-3266.581)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOW,IWJ,IWAMI,4,54,JPN" xlink:title="GB005" transform="ref(svg,13178.8116,-3467.58)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJBK,OKS,KONAN,4,0,JPN" xlink:title="GB005" transform="ref(svg,13392.5018,-3459.3082)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOA,HIJ,HIROSHIMA,4,331,JPN" xlink:title="GB005" transform="ref(svg,13291.9739,-3443.7397)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJBH,HIW,HIROSHIMANISHI,4,4,JPN" xlink:title="GB005" transform="ref(svg,13241.6687,-3436.4643)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOT,TAK,TAKAMATSU,4,185,JPN" xlink:title="GB005" transform="ref(svg,13401.4572,-3422.0211)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOS,TKS,TOKUSHIMA,22,8,JPN" xlink:title="GB005" transform="ref(svg,13459.9106,-3413.382)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJDC,UBJ,YAMAGUCHI-UBE,4,5,JPN" xlink:title="GB005" transform="ref(svg,13127.0065,-3393.0771)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFR,KKJ,KITAKYUSHU,4,4,JPN" xlink:title="GB005" transform="ref(svg,13103.1552,-3383.9379)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOM,MYJ,MATSUYAMA,4,4,JPN" xlink:title="GB005" transform="ref(svg,13269.9173,-3382.888)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFF,FUK,FUKUOKA,4,9,JPN" xlink:title="GB005" transform="ref(svg,13045.1447,-3358.543)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOK,KCZ,KOCHI,4,7,JPN" xlink:title="GB005" transform="ref(svg,13367.0166,-3354.7001)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFO,OIT,OITA,4,5,JPN" xlink:title="GB005" transform="ref(svg,13173.5352,-3348.3017)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFS,HSG,SAGA,4,2,JPN" xlink:title="GB005" transform="ref(svg,13029.6463,-3315.4388)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFT,KMJ,KUMAMOTO,4,193,JPN" xlink:title="GB005" transform="ref(svg,13084.848,-3283.5262)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFM,KMI,MIYAZAKI,4,6,JPN" xlink:title="GB005" transform="ref(svg,13145.1111,-3187.6961)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFK,KOJ,KAGOSHIMA,4,272,JPN" xlink:title="GB005" transform="ref(svg,13071.7194,-3180.5962)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFG,TNE,TANEGASHIMA,4,92,JPN" xlink:title="GB005" transform="ref(svg,13095.2042,-3054.7087)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJFC,KUM,YAKUSHIMA,4,37,JPN" xlink:title="GB005" transform="ref(svg,13065.6952,-3038.5273)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJKA,ASJ,AMAMI,4,4,JPN" xlink:title="GB005" transform="ref(svg,12971.1029,-2843.2894)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJKI,KKX,KIKAI/KIKAIGASHIMA&#32;IS.,4,5,JPN" xlink:title="GB005" transform="ref(svg,12992.337,-2831.7982)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJKN,TKN,TOKUNOSHIMA&#32;IS.,4,2,JPN" xlink:title="GB005" transform="ref(svg,12888.0524,-2783.095)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJKB,OKE,OKINOERABU,4,28,JPN" xlink:title="GB005" transform="ref(svg,12870.2133,-2743.067)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORY,RNJ,YORON,4,14,JPN" xlink:title="GB005" transform="ref(svg,12840.8035,-2704.0621)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORE,IEJ,IEJIMA(CIVIL),4,73,JPN" xlink:title="GB005" transform="ref(svg,12779.0962,-2672.5136)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORA,AGJ,AGUNI,4,12,JPN" xlink:title="GB005" transform="ref(svg,12723.8533,-2659.4707)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROKJ,UEO,KUME&#32;JIMA,4,7,JPN" xlink:title="GB005" transform="ref(svg,12672.0367,-2636.3909)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROAH,OKA,NAHA,4,5,JPN" xlink:title="GB005" transform="ref(svg,12764.5996,-2619.6445)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROKR,KJP,KERAMA,4,48,JPN" xlink:title="GB005" transform="ref(svg,12729.0886,-2616.7831)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORK,KTD,KITADAITO,4,22,JPN" xlink:title="GB005" transform="ref(svg,13132.1777,-2595.0661)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROMD,MMD,MINAMI&#32;DAITO,4,48,JPN" xlink:title="GB005" transform="ref(svg,13125.8804,-2584.9569)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORT,TRA,TARAMA,4,9,JPN" xlink:title="GB005" transform="ref(svg,12467.7524,-2465.4026)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROYN,OGN,YONAGUNI,4,16,JPN" xlink:title="GB005" transform="ref(svg,12297.5487,-2446.2749)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORH,HTR,HATERUMA,4,13,JPN" xlink:title="GB005" transform="ref(svg,12380.1826,-2406.0671)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RORS,SHI,SHIMOJISHIMA,4,8,JPN" xlink:title="GB005" transform="ref(svg,12514.2586,-2482.6202)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROMY,MMY,MIYAKO,4,43,JPN" xlink:title="GB005" transform="ref(svg,12528.8063,-2478.5151)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,RJOB,OKJ,OKAYAMA,4,241,JPN" xlink:title="GB005" transform="ref(svg,13385.3229,-3476.0102)" x="0" y="0"/>
+<use xlink:href="#p0" content="GB005,ROIG,ISG,NEW&#32;ISHIGAKI,4,37,JPN" xlink:title="GB005" transform="ref(svg,12424.5427,-2439.6859)" x="0" y="0"/>
+</g>
+</svg>

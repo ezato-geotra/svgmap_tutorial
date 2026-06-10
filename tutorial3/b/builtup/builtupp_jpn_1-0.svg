@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,pop,ypc,nam,soc" viewBox="13500.0 -9000.0 4500.0 4500.0" go:dataArea="13500.0 -9000.0 4500.0 4500.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="#ff0000" fill-rule="evenodd" >
+<use xlink:href="#p0" content="AL020,-99999999,0,WAKKANAI,JPN" xlink:title="AL020" transform="ref(svg,14166.2933,-4542.2874)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,SARUFUTSU,JPN" xlink:title="AL020" transform="ref(svg,14210.907,-4532.5138)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,REBUN,JPN" xlink:title="AL020" transform="ref(svg,14104.5547,-4530.7762)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,RISHIRIFUJI,JPN" xlink:title="AL020" transform="ref(svg,14122.3831,-4523.9311)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,RISHIRI,JPN" xlink:title="AL020" transform="ref(svg,14114.917,-4518.3037)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,HAMATONBETSU,JPN" xlink:title="AL020" transform="ref(svg,14235.9722,-4512.3889)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,TOYOTOMI,JPN" xlink:title="AL020" transform="ref(svg,14178.2532,-4510.0014)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,HORONOBE,JPN" xlink:title="AL020" transform="ref(svg,14185.2692,-4501.1971)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,SHIBETORO,JPN" xlink:title="AL020" transform="ref(svg,14861.8332,-4548.0484)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,MOYORO,JPN" xlink:title="AL020" transform="ref(svg,14882.2357,-4541.8629)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,TOURO,JPN" xlink:title="AL020" transform="ref(svg,14841.5833,-4531.8439)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,BETTOBU,JPN" xlink:title="AL020" transform="ref(svg,14801.9089,-4526.5293)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,SHANA,JPN" xlink:title="AL020" transform="ref(svg,14789.0137,-4523.3063)" x="0" y="0"/>
+<use xlink:href="#p0" content="AL020,-99999999,0,RUBETSU,JPN" xlink:title="AL020" transform="ref(svg,14770.6085,-4509.9709)" x="0" y="0"/>
+</g>
+</svg>

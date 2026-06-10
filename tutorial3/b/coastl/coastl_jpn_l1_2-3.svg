@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,soc" viewBox="13500.0 -2250.0 2250.0 2250.0" go:dataArea="13500.0 -2250.0 2250.0 2250.0" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13606.9833,-2042.5447L13606.9899,-2042.541L13606.995,-2042.5367L13606.9989,-2042.5313L13607.0005,-2042.5228L13606.9978,-2042.514L13606.9942,-2042.5077L13606.9817,-2042.5015L13606.9672,-2042.5024L13606.9566,-2042.5118L13606.9549,-2042.517L13606.9527,-2042.5286L13606.9556,-2042.5354L13606.9619,-2042.5404L13606.9665,-2042.5434L13606.9697,-2042.5443L13606.9759,-2042.5455L13606.9833,-2042.5447"/>
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13608.1212,-2042.581L13608.1279,-2042.5774L13608.1329,-2042.5731L13608.1368,-2042.5677L13608.1369,-2042.5607L13608.137,-2042.5527L13608.1299,-2042.5422L13608.1196,-2042.5379L13608.1051,-2042.5388L13608.0971,-2042.5441L13608.0945,-2042.5481L13608.0914,-2042.5569L13608.0916,-2042.565L13608.0947,-2042.5709L13608.0998,-2042.5768L13608.1044,-2042.5798L13608.1076,-2042.5807L13608.1139,-2042.5819L13608.1212,-2042.581"/>
+<path content="BA010,1,1,JPN" xlink:title="BA010" d="M13607.3678,-2042.3145L13607.3737,-2042.3208L13607.3837,-2042.3234L13607.3933,-2042.3237L13607.4027,-2042.3206L13607.4074,-2042.3143L13607.4128,-2042.3053L13607.4129,-2042.2959L13607.4097,-2042.2841L13607.3987,-2042.2776L13607.3886,-2042.274L13607.3744,-2042.278L13607.3665,-2042.2844L13607.3627,-2042.2939L13607.3613,-2042.3005L13607.3629,-2042.3074L13607.3678,-2042.3145"/>
+</g>
+</svg>

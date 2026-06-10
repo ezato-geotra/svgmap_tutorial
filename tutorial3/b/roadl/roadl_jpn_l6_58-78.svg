@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:go="http://purl.org/svgmap/profile" property="f_code,acc,exs,rst,med,rtt,RSU,loc,soc" viewBox="13078.125 -3515.625 70.3125 70.3125" go:dataArea="13078.125 -3515.625 70.3125 70.3125" >
+<metadata>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://opengis.org/xmldtds/transformations.dtd" xmlns:svg="http://www.w3.org/svg" >
+  <rdf:Description>
+   <crs:CoordinateReferenceSystem rdf:resource="http://purl.org/crs/84" svg:transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+  </rdf:Description>
+ </rdf:RDF>
+</metadata>
+<globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100.0,0.0,0.0,-100.0,0.0,0.0)" />
+<defs>
+ <g id="p0" >
+  <circle cx="0.0" cy="0.0" r="3" stroke="green" stroke-width="2.0" vector-effect="non-scaling-stroke" />
+ </g>
+</defs>
+<g fill="none" fill-rule="evenodd" stroke="#00ff00" stroke-width="2" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" >
+<path content="AP030,1,28,1,0,14,1,8,JPN" xlink:title="AP030" d="M13148.4375,-3451.8204L13148.3994,-3451.7399L13148.3307,-3451.5266L13148.317,-3451.4961L13148.2895,-3451.4332L13148.2407,-3451.3599L13147.9004,-3451.0735L13147.7905,-3450.8598L13147.7402,-3450.8198"/>
+<path content="AP030,1,28,1,0,15,1,8,JPN" xlink:title="AP030" d="M13147.7402,-3450.8198L13147.9691,-3450.7992L13148.4375,-3450.757"/>
+<path content="AP030,1,28,1,0,14,1,8,JPN" xlink:title="AP030" d="M13147.7402,-3450.8198L13147.4503,-3450.6065L13147.02,-3450.28L13146.9299,-3450.1732L13146.8597,-3449.7066L13146.8094,-3449.5934L13146.6293,-3449.3801L13146.5195,-3449.1467L13146.3806,-3449.02L13146.3593,-3448.9265L13146.3303,-3448.6801L13146.2906,-3448.5867L13146.0403,-3448.3734L13145.5399,-3447.9935L13145.3293,-3447.8664L13145.1294,-3447.7734L13144.9493,-3447.6131L13144.7006,-3447.1268L13144.6503,-3447.0734L13144.5404,-3446.9666L13144.4504,-3446.9131L13144.1498,-3446.9131L13143.8095,-3446.7865L13143.6493,-3446.6801L13143.4006,-3446.4066L13143.1503,-3446.1933L13142.7704,-3445.8866L13142.6102,-3445.4533L13142.5797,-3445.38L13142.4698,-3445.3266L13142.4273,-3445.3125"/>
+</g>
+</svg>

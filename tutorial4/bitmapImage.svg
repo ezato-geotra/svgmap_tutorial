@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="139.1063918412553,-35.90355823638255,0.8140711890480361,0.41815015611484085" about="root">
+    <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(1,0,0,-1,0,0)"/>
+
+    <image id="bitimage" xlink:href="./tokyo03_kato-0140.png" x="0" y="0" width="942" height="775" preserveAspectRatio="none" xlink:title="image"  transform="matrix(0.003047260940149924,0,-3.6860514414263863e-16,0.0024834590693329386,138.51392249154844,-36.474693904388964)" data-anchorPoints="263.4863382389215,260.8743164994388,523.5136629158765,564.5218601368603"/>
+
+</svg>

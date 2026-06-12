@@ -1,23 +1,81 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8">
     <title>Station Map Dynamic Layer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<style>
-    #layerSpecificUI {
-        background: none;
-    }
-</style>
 <script>
+    const parentWindow = window.parent;
+    const parentDocument = parentWindow.document;
+
+    function ensureParentBootstrap(callback) {
+        if (!parentDocument.getElementById('parentBootstrapCss')) {
+            const link = parentDocument.createElement('link');
+            link.id = 'parentBootstrapCss';
+            link.rel = 'stylesheet';
+            link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css';
+            link.integrity = 'sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB';
+            link.crossOrigin = 'anonymous';
+            parentDocument.head.appendChild(link);
+        }
+
+        if (parentWindow.bootstrap) {
+            callback();
+            return;
+        }
+
+        let script = parentDocument.getElementById('parentBootstrapBundle');
+        if (!script) {
+            script = parentDocument.createElement('script');
+            script.id = 'parentBootstrapBundle';
+            script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js';
+            script.integrity = 'sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI';
+            script.crossOrigin = 'anonymous';
+            parentDocument.body.appendChild(script);
+        }
+
+        script.addEventListener('load', callback, { once: true });
+    }
+
     function search() {
-        console.log("search");
-        const searchResultModal = new bootstrap.Modal(document.getElementById('searchResultModal'));
-        searchResultModal.show();
+        ensureParentBootstrap(() => {
+            let dialog = parentDocument.getElementById('searchResultModal');
+
+            if (!dialog) {
+                dialog = parentDocument.createElement('div');
+                dialog.id = 'searchResultModal';
+                dialog.className = 'modal fade';
+                dialog.setAttribute('tabindex', '-1');
+                dialog.setAttribute('aria-labelledby', 'searchResultModalLabel');
+                dialog.setAttribute('aria-hidden', 'true');
+
+                dialog.innerHTML = `
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="searchResultModalLabel">検索結果</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>検索結果をここに表示します。</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary">Save changes</button>
+</div>
+</div>
+</div>
+`
+
+                parentDocument.body.appendChild(dialog);
+            }
+
+            parentWindow.bootstrap.Modal.getOrCreateInstance(dialog).show();
+        });
     }
 </script>
-<body style="height: 100vh;background: none;">
+<body>
 <div class="card">
     <div class="card-body">
         <h5 class="card-title">基地局検索</h5>
@@ -26,7 +84,7 @@
         </div>
         <div class="mb-3">
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="queryOptions" id="equalRadio" value="equal">
+                <input class="form-check-input" type="radio" name="queryOptions" id="equalRadio" value="equal" checked>
                 <label class="form-check-label" for="equalRadio">完全一致</label>
             </div>
             <div class="form-check form-check-inline">
@@ -36,23 +94,6 @@
         </div>
         <div class="d-grid gap-2">
             <button class="btn btn-outline-primary btn-sm" name="searchButton" id="searchButton" onclick="search()">検索</button>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="searchResultModal" tabindex="-1" aria-labelledby="searchResultModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
         </div>
     </div>
 </div>

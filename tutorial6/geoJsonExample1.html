@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>SVGMapのwebAppレイヤーで、geoJsonを描画するサンプル</title>
+</head>
+
+<style>
+/* 奇数行のスタイル */
+table tr:nth-child(odd){
+  background-color:#c0c0ff;
+}
+ 
+/* 偶数行のスタイル */
+table tr:nth-child(even){
+  background-color:#e0e0e0;
+}
+</style>
+
+<script src="https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/svgMapLayerLib.js"></script>
+<script src="geoJsonExample1.js"></script>
+<body>
+<h3>area layer</h3>
+<p>geoJsonの可視化</p>
+<select id="dataSelect" onchange="changeData()"></select>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "A34g_001": 1, "A34g_002": 1, "A34g_003": "法隆寺地域の仏教建造物", "A34g_004": "‐", "A34g_005": 570.7 }, "geometry": { "type": "Point", "coordinates": [ 135.73114339, 34.6208042 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 2, "A34g_002": 2, "A34g_003": "姫路城", "A34g_004": "‐", "A34g_005": 143.0 }, "geometry": { "type": "Point", "coordinates": [ 134.68611601000001, 34.83950141 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 3, "A34g_002": 3, "A34g_003": "古都京都の文化財", "A34g_004": "‐", "A34g_005": 3579.0 }, "geometry": { "type": "Point", "coordinates": [ 135.85767438, 35.07413282 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 4, "A34g_002": 4, "A34g_003": "白川郷・五箇山の合掌造り集落", "A34g_004": "白川村萩町地区", "A34g_005": 35655.0 }, "geometry": { "type": "Point", "coordinates": [ 136.89841842000001, 36.23009113 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 5, "A34g_002": 4, "A34g_003": "白川郷・五箇山の合掌造り集落", "A34g_004": "平村相倉地区", "A34g_005": 9406.0 }, "geometry": { "type": "Point", "coordinates": [ 136.94389859, 36.42044839 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 6, "A34g_002": 4, "A34g_003": "白川郷・五箇山の合掌造り集落", "A34g_004": "上平村菅沼地区", "A34g_005": 9477.0 }, "geometry": { "type": "Point", "coordinates": [ 136.84131037, 36.36581587 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 7, "A34g_002": 5, "A34g_003": "原爆ドーム", "A34g_004": "‐", "A34g_005": 42.7 }, "geometry": { "type": "Point", "coordinates": [ 132.45221992, 34.39335013 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 8, "A34g_002": 6, "A34g_003": "厳島神社", "A34g_004": "‐", "A34g_005": 2634.3 }, "geometry": { "type": "Point", "coordinates": [ 132.30874155000001, 34.27159669 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 9, "A34g_002": 7, "A34g_003": "古都奈良の文化財", "A34g_004": "‐", "A34g_005": 1962.5 }, "geometry": { "type": "Point", "coordinates": [ 135.87580369, 34.68342762 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 10, "A34g_002": 8, "A34g_003": "日光の社寺", "A34g_004": "‐", "A34g_005": 373.2 }, "geometry": { "type": "Point", "coordinates": [ 139.58856139, 36.75781338 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 11, "A34g_002": 9, "A34g_003": "琉球王国のグスク及び関連遺産群", "A34g_004": "‐", "A34g_005": 559.7 }, "geometry": { "type": "Point", "coordinates": [ 127.79709824, 26.28528931 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 12, "A34g_002": 10, "A34g_003": "紀伊山地の霊場と参詣道", "A34g_004": "‐", "A34g_005": 11370.0 }, "geometry": { "type": "Point", "coordinates": [ 135.91007423, 34.02720451 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 13, "A34g_002": 11, "A34g_003": "石見銀山遺跡とその文化的景観", "A34g_004": "‐", "A34g_005": 3221.0 }, "geometry": { "type": "Point", "coordinates": [ 132.41462885000001, 35.1128014 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 14, "A34g_002": 12, "A34g_003": "平泉－仏国土（浄土）を表す建築", "A34g_004": "‐", "A34g_005": 5998.0 }, "geometry": { "type": "Point", "coordinates": [ 141.14993696, 38.9985467 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 15, "A34g_002": 13, "A34g_003": "富士山－信仰の対象と芸術の源泉", "A34g_004": "‐", "A34g_005": 49627.7 }, "geometry": { "type": "Point", "coordinates": [ 138.59838296000001, 35.39976675 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 16, "A34g_002": 14, "A34g_003": "富岡製糸場と絹産業遺産群", "A34g_004": "‐", "A34g_005": 414.6 }, "geometry": { "type": "Point", "coordinates": [ 138.64154274000001, 36.25007866 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 17, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "萩", "A34g_005": 1068.3 }, "geometry": { "type": "Point", "coordinates": [ 131.40278285, 34.41067512 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 18, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "鹿児島", "A34g_005": 65.0 }, "geometry": { "type": "Point", "coordinates": [ 130.58021874, 31.61739346 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 19, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "韮山", "A34g_005": 33.9 }, "geometry": { "type": "Point", "coordinates": [ 138.96357582, 35.03818299 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 20, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "釜石", "A34g_005": 523.7 }, "geometry": { "type": "Point", "coordinates": [ 141.68631995000001, 39.33650806 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 21, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "佐賀", "A34g_005": 33.4 }, "geometry": { "type": "Point", "coordinates": [ 130.34237113, 33.20717914 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 22, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "長崎", "A34g_005": 139.2 }, "geometry": { "type": "Point", "coordinates": [ 129.86803068, 32.73463816 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 23, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "三池", "A34g_005": 455.1 }, "geometry": { "type": "Point", "coordinates": [ 130.40994173000001, 33.01379237 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 24, "A34g_002": 15, "A34g_003": "明治日本の産業革命遺産　製鉄・鉄鋼、造船、石炭産業", "A34g_004": "八幡", "A34g_005": 89.7 }, "geometry": { "type": "Point", "coordinates": [ 130.70749181, 33.81208706 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 25, "A34g_002": 16, "A34g_003": "ル・コルビュジエの建築作品‐近代建築運動への顕著な貢献‐", "A34g_004": "日本", "A34g_005": 116.2 }, "geometry": { "type": "Point", "coordinates": [ 139.77480465, 35.71619076 ] } },
+{ "type": "Feature", "properties": { "A34g_001": 26, "A34g_002": 17, "A34g_003": "「神宿る島」宗像・沖ノ島と関連遺産群", "A34g_004": "‐", "A34g_005": 79363.5 }, "geometry": { "type": "Point", "coordinates": [ 130.29727064, 34.03790084 ] } }
+]
+}

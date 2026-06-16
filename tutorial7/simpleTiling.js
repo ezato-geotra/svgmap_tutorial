@@ -5,9 +5,9 @@
 addEventListener("load",init);
 addEventListener("zoomPanMap",zpmFunc);
 
-var latCol=1;
-var lngCol=0;
-var tilesTh=8; // 画面の中に入るタイルの枚数の閾値（縮小すると読み込むタイルが多くなりすぎ重くなるのを防ぐ）
+var latCol = 1;
+var lngCol = 0;
+var tilesTh = 40; // 画面の中に入るタイルの枚数の閾値（縮小すると読み込むタイルが多くなりすぎ重くなるのを防ぐ）
 
 function init(){
     zpmFunc();
@@ -38,7 +38,13 @@ async function zpmFunc(){
         }
         for ( var tileKey in tileList ){ // 不足しているデータを読み込む
             if ( !tiles[tileKey] ){
-                tiles[tileKey]=await loadCSV(`tiles/${tileKey}.csv`); // テンプレートリテラル
+                const loadCSVData = await loadCSV(`tiles/${tileKey}.csv`); // テンプレートリテラル
+                if ( loadCSVData ){
+                    tiles[tileKey] = loadCSVData;
+                } else {
+                    // データが読み込めなかった場合、タイルを削除
+                    delete tiles[tileKey];
+                }
             }
         }
         message.innerText="-";
@@ -91,7 +97,7 @@ async function loadCSV(url){
     if ( response.ok ){
         var txt = await response.text();
         txt=txt.split(/[\r\n]+/);
-        console.log(txt);
+        // console.log(txt);
         var csv=[];
         var schemaLine = true;
         for ( line of txt){

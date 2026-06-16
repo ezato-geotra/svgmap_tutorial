@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSV Mesh Data Visualizer Controller</title>
+<meta charset="UTF-8">
+</head>
+<script src="https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/svgMapLayerLib.js"></script>
+<script src="ArrayMesh.js"></script>
+
+<body>
+<h3>Mesh Data Controller</h3>
+
+<div id="gui">
+  <form>
+      <span >min</span>
+	  <input id="vminI" type="text" name="min" style="width :80px;font-size:80%">
+      <span >max</span>
+	  <input id="vmaxI" type="text" name="max" style="width :80px;font-size:80%">
+	  <input id="vset" type="button" onclick="setRange( )" value="setRange"/>
+  </form>
+  <table border="0">
+  <tr><td colspan="3">
+  <img src="hsvBar.png" width="200" height="10"/>
+  </td></tr>
+  <tr style="font-size:60%"><td>
+  <span id="scalemin">min</span>
+  </td><td align="center">
+  <span id="scalemid">mid</span>
+  </td><td align="right">
+  <span id="scalemax">max</span>
+  </td><tr>
+  </table>
+</body>
+</html>

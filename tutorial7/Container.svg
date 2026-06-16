@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="122.9800817, -45.398095, 21.97626, 21.0533039" >
+ <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(1,0,0,-1,0,0)" />
+
+ <!-- OpenStretMap背景地図を表示状態として読み込む -->
+ <animation xlink:href="../tutorial6/dynamicOSM_r11.svg" x="-3000" y="-3000" width="6000" height="6000" title="Japan Coastline" class="basemap" visibility="visible"/>
+
+ <!-- 日本の公共施設データのPoint CSVファイルのタイルデータを表示状態として読み込む -->
+ <animation xlink:href="simpleTiling.svg" x="-3000" y="-3000" width="6000" height="6000" title="Cultural Facility" class="POI clickable" visibility="visible"/>
+</svg>

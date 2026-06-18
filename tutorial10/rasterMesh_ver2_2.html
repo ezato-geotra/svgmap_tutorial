@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Geoid Height Calc WebApp</title>
+<meta charset="utf-8">
+</head>
+<script src="https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/svgMapLayerLib.js"></script>
+<script src="rasterMesh_ver2_2.js"></script>
+<body>
+<h3>メッシュデータ可視化(ビットイメージ化)</h3>
+<p><a href="https://www.gsi.go.jp/buturisokuchi/grageo_reference.html" target="_blank">地理院のジオイド・モデル「日本のジオイド2011」（Ver.2.2）の提供</a>のASCII版に同梱されているデータをビットイメージ化されたメッシュデータとして可視化します。
+</p>
+<div id="messageDiv" style="color:red"></div>
+<div>
+<canvas id="geoidCanvas" style="display:none"></canvas>
+</div>
+</body>
+</html>

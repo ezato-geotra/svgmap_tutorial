@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="122.9800817, -45.398095, 21.97626, 21.0533039" >
+    <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(1,0,0,-1,0,0)" />
+
+    <!-- OpenStreetMap背景地図を表示状態として読み込む -->
+    <animation xlink:href="../tutorial6/dynamicOSM_r11.svg" x="-3000" y="-3000" width="6000" height="6000" title="OpenStreetMap" class="basemap" visibility="visible"/>
+
+    <!-- 地理院のジオイド高データをビットイメージ化したメッシュデータとして可視化 -->
+    <animation xlink:href="rasterMesh.svg" x="-3000" y="-3000" width="6000" height="6000" title="GSI geoidHeight" class="Mesh switch" visibility="visible" opacity="0.6"/>
+    <animation xlink:href="rasterMesh_v2_2.svg" x="-3000" y="-3000" width="6000" height="6000" title="GSI geoidHeight Ver2.2" class="Mesh switch" visibility="hidden" opacity="0.6"/>
+</svg>

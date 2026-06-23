@@ -1,0 +1,23 @@
+/* ローディング中の回転アニメーション */
+@keyframes loader {
+    from { stroke-dashoffset: 230; }
+    to { stroke-dashoffset: -230; }
+}
+@keyframes loading {
+    from { transform: none; }
+    to { transform: rotate(360deg); }
+}
+
+#loading-svg {
+    fill: none;
+    stroke: dodgerblue;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-dasharray: 230 230;
+    animation: loader 1.4s infinite cubic-bezier(.4,0,.3,1), loading 1.2s infinite linear;
+}
+
+/* ロード完了時にローディングを非表示にするクラス */
+.is-loaded {
+    display: none;
+}

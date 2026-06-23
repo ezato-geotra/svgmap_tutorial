@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="120,-50,30,30" >
+ <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(1,0,0,-1,0,0)" />
+
+<!-- OpenStretMap背景地図を表示状態として読み込む -->
+<animation xlink:href="../tutorial6/dynamicOSM_r11.svg" x="-3000" y="-3000" width="6000" height="6000" title="OpenStreetMap" class="basemap" visibility="visible"/>
+
+
+<!-- WMSから取得したデータを読み込む -->
+<animation xlink:href="wms_dynamic.svg" x="-3000" y="-3000" width="6000" height="6000" title="Dynamic WMS" visibility="visible"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>SVGMapのwebAppレイヤーで、geoJsonを描画するサンプル</title>
+</head>
+
+<script src="https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/svgMapLayerLib.js"></script>
+<script src="geoJsonExample2.js"></script>
+<body>
+<h3>地震情報</h3>
+<p><a href="https://earthquake.usgs.gov/earthquakes/feed/" target="_blank">USGS Earthquake Hazards Program Feed</a>の可視化</p>
+<label for="dataSelect1">期間</label>
+<select id="dataSelect1" onchange="changeData()"></select><br>
+<label for="dataSelect2">規模</label>
+<select id="dataSelect2" onchange="changeData()"></select>
+<div id="messageDiv"></div>
+</body>
+</html>

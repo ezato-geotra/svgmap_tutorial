@@ -23,6 +23,6 @@ docker compose down
 #### Proxy が動いてるか確認する方法
 `Docker` を起動した状態で下記URLにアクセス
 
-[Example Domain](http://localhost:8080/corsaw/proxy.php?csurl=https://example.com/)
+[Example Domain](http://localhost:8081/corsaw/proxy.php?csurl=https://example.com/)
 
 画面が正常に表示されればOK

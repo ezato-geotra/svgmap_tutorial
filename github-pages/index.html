@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>svgmapAppLayers GitHub Pagesの利用</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- レイヤーリストUIのスタイルシート読み込み -->
+    <link href="../css/layerListStyle.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://unpkg.com/jsts@1.6.1/dist/jsts.min.js"></script>
+    <script type="module">
+        import { CorsProxy } from 'https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/CorsProxyModule.js';
+        import { svgMap } from 'https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/SVGMapLv0.1_r18module.js';
+        window.svgMap=svgMap
+        const corsProxy = new CorsProxy();
+
+        // プロキシの設定
+        const proxyPath = `${window.location.origin}/corsaw/proxy.php?csurl=`; // docker内のphp-cross-domain-proxy
+        corsProxy.setService(proxyPath, null, true, true);
+        window.corsProxy = corsProxy;
+        svgMap.setProxyURLFactory(
+            null,
+            null,
+            null,
+            corsProxy.getURLfunction(), // ビットイメージ非線形図法変換の時のみプロキシを使う
+            true,
+            null
+        );
+
+        // ハイライトの設定
+        if ( svgMap.setDefaultHilightStyle ){
+            svgMap.setDefaultHilightStyle({ fill:{color:"",lineWidth:2,lineColor:"red"}})
+        }
+    </script>
+</head>
+<body bgcolor="#ffffff" style="overflow:hidden;" >
+<div id="mapcanvas" data-src="Container.svg" data-custom-layers-root="./customLayerSettings/"></div>
+<div id="gui">
+    <img id="zoomupButton" alt="Zoom up button" style="left: 5px; top: 5px; position: absolute;" src="../img/zoomup.png" onclick="svgMap.zoomup()" width="20" height="20" />
+    <img id="zoomdownButton" alt="Zoom down button" style="left: 5px; top: 25px; position: absolute;" src="../img/zoomdown.png" onclick="svgMap.zoomdown()" width="20" height="20" />
+    <img id="gpsButton" alt="GPS button" style="left: 5px; top: 45px; position: absolute;" src="../img/gps.png" onclick="svgMap.gps()" width="20" height="20" />
+
+    <img id="centerSight" alt="Center sight cursor" style="opacity:0.5" src="../img/Xcursor.png" width="15" height="15"/>
+    <table style="left: 10px; bottom: 5px; position: absolute;font-size:12px;font-weight: bold;color:red;background-color: rgb(0 0 0 / 0.4);">
+        <tr><td>Lat,Lng:</td><td id="centerPos"></td></tr>
+    </table>
+
+    <img id="vscaleImg" alt="Vertical scale image" style="left: 5px; bottom: 42px; position: absolute;" src="../img/vscale.png" />
+    <font id="vScale" size="-2" color="black" style="left: 5px; bottom: 28px; position: absolute;">xxx Km</font>
+
+    <div id="layerList" style="left :30px; top: 10px; width:300px;height:90%; position: absolute; " data-customizer="./SVGMapCustomLayersManager.html" data-layerstylecontroller data-hiddenfilter></div>
+
+    <div id="layerSpecificUI" style="right :10px; top: 40px; width:400px;height:400px; position: absolute; background-color: white;opacity:0.8;display:none;"></div>
+</div>
+</body>
+</html>

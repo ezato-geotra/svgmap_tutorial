@@ -17,7 +17,7 @@
         const corsProxy = new CorsProxy();
 
         // プロキシの設定
-        const proxyPath = `${window.location.origin}/corsaw/proxy.php?csurl=`; // docker内のphp-cross-domain-proxy
+        const proxyPath = `https://svgmap-cors-header-proxy.ezato.workers.dev/?csurl=`; // docker内のphp-cross-domain-proxy
         corsProxy.setService(proxyPath, null, true, true);
         window.corsProxy = corsProxy;
         svgMap.setProxyURLFactory(

@@ -174,4 +174,5 @@
   <!-- 国交省 バリアフリー・ナビプロジェクト -->
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../accessibilityInformationJR/accessibilityInformationJR.svg" data-cross-origin-proxy-required="true" class="卒業課題" title="鉄道施設に関するバリアフリー情報（JR）" visibility="hidden"/>
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../odptRealtimeKantoBusAllLinesVehicle/odptRealtimeKantoBusAllLinesVehicle.svg" class="卒業課題 clickable" title="関東バス リアルタイム運行情報" visibility="hidden"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../okinawaPrefOpenData/okinawaOpenData.svg" class="卒業課題 clickable" title="沖縄県オープンデータ" visibility="hidden"/>
 </svg>

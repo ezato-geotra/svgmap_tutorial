@@ -11,13 +11,13 @@
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/location_on.svg"/>
     </g>
     <g id="p1">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/restaurant.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/storefront.svg"/>
     </g>
     <g id="p2">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/park.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/wifi.svg"/>
     </g>
     <g id="p3">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/school.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/elderly.svg"/>
     </g>
     <g id="p4">
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/child_care.svg"/>
@@ -26,13 +26,13 @@
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/local_hospital.svg"/>
     </g>
     <g id="p6">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/elderly.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/school.svg"/>
     </g>
     <g id="p7">
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/local_parking.svg"/>
     </g>
     <g id="p8">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/wifi.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/park.svg"/>
     </g>
     <g id="p9">
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/event.svg"/>
@@ -50,7 +50,7 @@
       <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/account_balance.svg"/>
     </g>
     <g id="p14">
-      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/storefront.svg"/>
+      <image x="-12.5" y="-12.5" width="25" height="25" preserveAspectRatio="xMidYMid meet" xlink:href="./img/restaurant.svg"/>
     </g>
   </defs>
 </svg>

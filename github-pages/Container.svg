@@ -176,4 +176,8 @@
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../odptRealtimeKantoBusAllLinesVehicle/odptRealtimeKantoBusAllLinesVehicle.svg" class="卒業課題 clickable" title="関東バス リアルタイム運行情報" visibility="hidden"/>
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../okinawaPrefOpenData/okinawaOpenData.svg" class="卒業課題 clickable" title="沖縄県オープンデータ" visibility="hidden"/>
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../iot100WeatherBox/iot100WeatherBox.svg" title="IoT百葉箱" data-cross-origin-proxy-required="true" class="卒業課題 clickable" visibility="hidden" opacity="0.9"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=docomo-cycle" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="ドコモ・バイクシェア（全国）" visibility="hidden" opacity="0.85"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=docomo-cycle-tokyo" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="ドコモ・バイクシェア（東京）" visibility="hidden" opacity="0.85"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=hellocycling" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="HELLO CYCLING" visibility="hidden" opacity="0.85"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=toyama" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="CyclOcity（富山）" visibility="hidden" opacity="0.85"/>
 </svg>

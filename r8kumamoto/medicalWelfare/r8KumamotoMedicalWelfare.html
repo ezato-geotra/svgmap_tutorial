@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>令和8年熊本地震 医療・福祉施設被害</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; }
+    body { margin: 8px; color: #1f2937; font-size: 13px; line-height: 1.45; }
+    h1 { margin: 0 0 8px; font-size: 17px; }
+    h2 { margin: 10px 0 5px; font-size: 14px; }
+    select, button { min-height: 30px; font: inherit; }
+    select { width: 100%; }
+    .status { min-height: 1.5em; margin: 7px 0; padding: 6px 8px; border-left: 4px solid #2563eb; background: #eff6ff; }
+    .status.warning { border-color: #d97706; background: #fffbeb; color: #78350f; }
+    .scale { display: flex; gap: 5px; }
+    .scale span { width: 48px; padding: 3px; color: #111827; text-align: center; font-size: 11px; }
+    .notice { padding: 7px 9px; background: #f8fafc; border-left: 3px solid #64748b; font-size: 11px; }
+    a { color: #075ea8; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/gh/svgmap/svgmapjs@latest/svgMapLayerLib.js"></script>
+  <script type="module" src="./r8KumamotoMedicalWelfare.js"></script>
+</head>
+<body>
+  <h1>市町村別 医療・福祉施設被害</h1>
+  <label for="metricSelect">表示指標</label>
+  <select id="metricSelect"></select>
+  <button id="checkLatestButton" type="button">最新版を確認</button>
+  <div id="statusMessage" class="status" role="status" aria-live="polite">初期化待ち</div>
+  <p>内蔵データ：厚生労働省 第37報（2026-08-05 08:00現在）</p>
+  <p>表示合計 <strong id="totalValue">-</strong>施設 ／ 表示自治体 <span id="municipalityCount">-</span></p>
+  <h2>凡例</h2>
+  <p>円の大きさは施設数、色は選択指標内の最大値に対する割合です。</p>
+  <div class="scale"><span style="background:#cbd5e1">0</span><span style="background:#facc15">低</span><span style="background:#f97316">中</span><span style="background:#dc2626;color:white">高</span><span style="background:#991b1b;color:white">最大</span></div>
+  <p class="notice">出典：<a href="https://www.mhlw.go.jp/stf/newpage_75017.html" target="_blank" rel="noopener noreferrer">厚生労働省「令和8年熊本地震による被害状況」</a>、<a href="https://www.mhlw.go.jp/content/001733600.pdf" target="_blank" rel="noopener noreferrer">第37報</a>。PDFの市町村表を正規化したスナップショットです。高齢者施設は地図化した21自治体分で、県合計875施設の全自治体内訳とは一致しません。地点は自治体代表点で、個別施設の位置ではありません。</p>
+</body>
+</html>

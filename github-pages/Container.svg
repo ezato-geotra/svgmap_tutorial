@@ -180,4 +180,11 @@
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=docomo-cycle-tokyo" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="ドコモ・バイクシェア（東京）" visibility="hidden" opacity="0.85"/>
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=hellocycling" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="HELLO CYCLING" visibility="hidden" opacity="0.85"/>
   <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../shareCycleGbfs/shareCycleGbfs.svg#system=toyama" data-cross-origin-proxy-required="true" class="卒業課題 clickable" title="CyclOcity（富山）" visibility="hidden" opacity="0.85"/>
+
+  <!-- 令和8年熊本地震（道路状況に続く実装順） -->
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../r8kumamoto/gsiDamage/r8KumamotoGsiDamage.svg" title="正射画像・斜面崩壊" data-cross-origin-proxy-required="true" opacity="0.8" class="令和8年熊本地震 clickable" visibility="hidden"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../r8kumamoto/aftershocks/r8KumamotoAftershocks.svg" title="本震・最新地震活動" data-cross-origin-proxy-required="true" opacity="0.85" class="令和8年熊本地震 clickable" visibility="hidden"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../r8kumamoto/medicalWelfare/r8KumamotoMedicalWelfare.svg" title="医療・福祉施設被害" data-cross-origin-proxy-required="true" opacity="0.85" class="令和8年熊本地震 clickable" visibility="hidden"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../r8kumamoto/supportActivities/r8KumamotoSupport.svg" title="復旧・支援活動" data-cross-origin-proxy-required="true" opacity="0.9" class="令和8年熊本地震 clickable" visibility="hidden"/>
+  <animation x="-30000" y="-30000" width="60000" height="60000" xlink:href="../r8kumamoto/road/r8KumamotoRoad.svg" title="通れるマップ（道路状況）" data-cross-origin-proxy-required="true" opacity="0.8" class="令和8年熊本地震 clickable batch" visibility="hidden"/>
 </svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="12980 -3340 220 180" property="市町村,表示指標,現在値,医療被災,医療断水,高齢者施設被災,高齢者施設断水,時点,出典"
+  data-controller="r8KumamotoMedicalWelfare.html#exec=appearOnLayerLoad&amp;requiredHeight=450">
+  <globalCoordinateSystem srsName="http://purl.org/crs/84" transform="matrix(100,0,0,-100,0,0)"/>
+  <g id="municipalityPoints"/>
+</svg>
